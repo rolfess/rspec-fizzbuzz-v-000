@@ -9,7 +9,7 @@ def fizzbuzz (x)
   elsif x % 5 == 0
     return "Buzz"
   else
-    return "nil"
+    return nil
  end
  fizzbuzz (15)
  puts "#{x}"
